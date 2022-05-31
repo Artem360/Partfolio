@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;1,100&family=Poppins:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  max-width: 100%;
+  background-color: #212529;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+.header {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.header .logoblok {
+  display: flex;
+}
+.header .button {
+  display: flex;
+}
+.header .menuList {
+  display: flex;
+}
+.header .menuUrl {
+  color: #D4D4D4;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.header .menuUrl:hover {
+  color: #FFB742;
+}
+.header .menublok {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1C1C1C;
+}
+.footer h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #FFB742;
+}
+
+.wraper {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+
+.content {
+  flex: 1 1 auto;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.hireButton {
+  width: 120px;
+  height: 55px;
+  border-radius: 40px;
+  background-color: #FFB742;
+  color: #212529;
+  border: #212529 solid;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.hireButton:hover {
+  background-color: #ec970e;
+  color: #D4D4D4;
+}
+
+.informBtn {
+  background-color: #292B2E;
+  border: none;
+  border-radius: 40px;
+  width: 148px;
+  height: 42px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFB742;
+}
+
+.hiBlok {
+  text-align: center;
+  padding: 10px;
+  color: #D4D4D4;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hiBlok .hiIcon {
+  float: left;
+}
+.hiBlok .achievementsBlok {
+  display: flex;
+}
+.hiBlok .expBlok {
+  width: 32%;
+  margin-right: 2%;
+  background-color: #292B2E;
+  box-shadow: 2px 5px 5px #000000;
+  border-radius: 10px;
+  display: flex;
+  height: 120px;
+  padding: 20px;
+  justify-content: center;
+  min-height: 120px;
+  min-width: 300px;
+}
+.hiBlok .expBlok img {
+  float: right;
+  display: flex;
+  margin-right: 20px;
+}
+.hiBlok .expBlok p {
+  float: left;
+  display: flex;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.hiBlok .expBlok span {
+  color: #FFB742;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: block;
+  font-size: 32px;
+}
+.hiBlok .myImgBlok {
+  width: 220px;
+  height: 220px;
+  align-self: center;
+  margin: 2% 0;
+}
+.hiBlok .myimg {
+  border-radius: 50%;
+}
+.hiBlok .hiTitle {
+  line-height: 4em;
+}
+.hiBlok .hiTitle .name {
+  color: #FFB742;
+  text-decoration: underline;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+  margin-bottom: 170px;
+}
+.skills .skillsText {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  color: #D4D4D4;
+}
+.skills .skillsText h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.skills .skillsText p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.skills .skillsIconBlok {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+}
+.skills .skillsIconBlok .skillIconsSection {
+  flex-direction: row;
+  display: flex;
+}
+.skills .skillsIconBlok .skillIconsSection .skillsIcon {
+  min-width: 80px;
+  min-height: 80px;
+  width: 80px;
+  height: 80px;
+  background-color: #292B2E;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.skills .skillsIconBlok .skillIconsSection .skillsIcon img {
+  margin: 16px;
+  width: 48px;
+  height: 48px;
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.aboutMe .inform {
+  color: #D4D4D4;
+}
+.aboutMe .inform p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.aboutMe .inform h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 30px;
+}
+
+.myWorksBlok {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.myWorksBlok .sliderBlok {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.myWorksBlok .sliderBlok button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 20px 5px;
+  color: #ec970e;
+  font-size: 2rem;
+}
+.myWorksBlok .sliderBlok button span {
+  position: relative;
+  display: inline-block;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}
+.myWorksBlok .sliderBlok .previous:hover span {
+  transform: translateX(-10px) scale(1.2);
+}
+.myWorksBlok .sliderBlok .next:hover span {
+  transform: translateX(10px) scale(1.2);
+}
+.myWorksBlok .sliderBlok .slider-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.myWorksBlok .sliderBlok .slider-nav li {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.myWorksBlok .sliderBlok img {
+  max-width: 100%;
+  display: none;
+  box-shadow: 10px 10px 40px 0 #292B2E;
+  height: 370px;
+}
+.myWorksBlok .sliderBlok img.active {
+  display: block;
+  -webkit-animation: fadeImg 0.8s;
+          animation: fadeImg 0.8s;
+}
+.myWorksBlok .sliderBlok .slider-nav .arrow {
+  flex: 0 0 15%;
+}
+.myWorksBlok .sliderBlok .slider-nav a {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+}
+.myWorksBlok .sliderBlok .slider-nav span {
+  display: block;
+  width: 100%;
+}
+@-webkit-keyframes fadeImg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeImg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.myWorksBlok .titleWorks {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  text-align: center;
+  color: #D4D4D4;
+}

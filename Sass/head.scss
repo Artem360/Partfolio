@@ -1,0 +1,40 @@
+.header{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    margin-left: 3%;
+    margin-right: 3%;
+    .logoblok{
+        display: flex;
+    }
+    .button{
+        display: flex;
+        
+    }
+    .menuList{
+        display: flex;
+        
+    }
+    .menuUrl{
+        color:$white;
+        padding: 10px;
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1em;
+        line-height: 1.5em;
+        &:hover{
+            color: $orange;
+        }
+
+    }
+    .menublok{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
