@@ -2,12 +2,88 @@
     display: flex;
     justify-content: center;
     background-color: #1C1C1C;
-    h3{
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 100%;
-        color: $orange;
+    .container{
+        justify-content: space-between;
+        display: flex;
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 100%;
+        .footerBlok{
+            display: flex;
+            flex-direction: column;
+            h2{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 100%;
+                color: $orange;
+            }
+            h3{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 21.5865px;
+                line-height: 32px;
+                color: $white;
+                padding-left: 40px;
+            }
+            .textNL{
+                color: #7B7B7B;
+                padding-left: 40px;
+            }
+            .textWhite{
+                padding: none;
+                color: $white;
+            }
+            .sendEmail{
+                background-color:$lightDark;
+                border-radius: 50px;
+                margin-left: 40px;
+                width: auto;
+                height: 65px;
+                display: flex;
+                align-items: center;
+                input{
+                    background-color:$lightDark;
+                    border: $lightDark;
+                    margin-left: 20px;
+                    flex-grow: 1;
+                    color: $lightOrange;
+                }
+                button{
+                    background-color:$orange;
+                    border: $orange;
+                    border-radius: 50px;
+                    width: 65px;
+                    height: 65px;
+                    &:hover{
+                        background-color: $lightOrange;
+                    }
+                    
+                    img{
+                        margin-left: 16px;
+                    }
+
+                }
+
+            }
+            ul{
+                border: none;
+                li{
+                    list-style-type: none;
+                    a{
+                        text-decoration: none;
+                        color: #7B7B7B;
+                        &:hover{
+                            color: $white;
+                        }
+                        
+                    }
+                }
+            }
+            
+        }
     }
+    
 }

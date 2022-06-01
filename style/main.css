@@ -68,13 +68,83 @@ ol[class] {
   justify-content: center;
   background-color: #1C1C1C;
 }
-.footer h3 {
+.footer .container {
+  justify-content: space-between;
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 100%;
+}
+.footer .container .footerBlok {
+  display: flex;
+  flex-direction: column;
+}
+.footer .container .footerBlok h2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
   color: #FFB742;
+}
+.footer .container .footerBlok h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.5865px;
+  line-height: 32px;
+  color: #D4D4D4;
+  padding-left: 40px;
+}
+.footer .container .footerBlok .textNL {
+  color: #7B7B7B;
+  padding-left: 40px;
+}
+.footer .container .footerBlok .textWhite {
+  padding: none;
+  color: #D4D4D4;
+}
+.footer .container .footerBlok .sendEmail {
+  background-color: #292B2E;
+  border-radius: 50px;
+  margin-left: 40px;
+  width: auto;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+.footer .container .footerBlok .sendEmail input {
+  background-color: #292B2E;
+  border: #292B2E;
+  margin-left: 20px;
+  flex-grow: 1;
+  color: #ec970e;
+}
+.footer .container .footerBlok .sendEmail button {
+  background-color: #FFB742;
+  border: #FFB742;
+  border-radius: 50px;
+  width: 65px;
+  height: 65px;
+}
+.footer .container .footerBlok .sendEmail button:hover {
+  background-color: #ec970e;
+}
+.footer .container .footerBlok .sendEmail button img {
+  margin-left: 16px;
+}
+.footer .container .footerBlok ul {
+  border: none;
+}
+.footer .container .footerBlok ul li {
+  list-style-type: none;
+}
+.footer .container .footerBlok ul li a {
+  text-decoration: none;
+  color: #7B7B7B;
+}
+.footer .container .footerBlok ul li a:hover {
+  color: #D4D4D4;
 }
 
 .wraper {
